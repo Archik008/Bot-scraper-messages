@@ -10,14 +10,8 @@
 <h3>Установка вирутальной среды и установка зависимостей</h3>
 ```
 python -m venv env
-```
-```
 env/Scripts/activate.ps1
-```
-```
 pip install -r requiremens.txt
 ```
 <h3>Запуск</h3>
-```
-python main.py
-```
+`python main.py`
