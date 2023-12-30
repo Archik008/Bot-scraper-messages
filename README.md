@@ -9,7 +9,7 @@
 <p>API_ID и API_HASH возьмите от своего аккаунта на сайте https://my.telegram.org/ и вставьте данные в файл config.py</p>
 <h3>Установка вирутальной среды и установка зависимостей</h3>
 <pre><code>python -m venv env</code></pre>
-<p>env/Scripts/activate.ps1</p>
-<p>pip install -r requiremens.txt</p>
+<pre><code>env/Scripts/activate.ps1</code></pre>
+<pre><code>pip install -r requiremens.txt</code></pre>
 <h3>Запуск</h3>
-<p>python main.py</p>
+<pre><code>python main.py</code></pre>
