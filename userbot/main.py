@@ -124,7 +124,7 @@ async def join_chats(cl: client, msg: types.Message):
                         await app.edit_message_text(msg.chat.id, bot_msg.id, f'Нужно подождать {time_int} секунд для продолжения. Это правило самого телеграма от флуда')
                 except:
                     continue
-    await app.send_message(msg.from_user.id, 'Я закончил заходить в группы')
+    await app.send_message(msg.from_user.id, 'Я закончил заходить в чаты')
 
 
 @app.on_message(filters=filters.group)
