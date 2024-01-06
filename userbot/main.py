@@ -13,8 +13,6 @@ try:
         key = file.read().split('; ')
 except FileNotFoundError:
     pass
-while '' in key:
-    key.remove('')
 
 stop = []
 try:
@@ -22,8 +20,7 @@ try:
         stop = file.read().split('; ')
 except FileNotFoundError:
     pass
-while '' in stop:
-    stop.remove('')
+    
 
 app = Client("my_account", api_id=api_id, api_hash=api_hash)
 
